@@ -1,6 +1,6 @@
 # Advance CSS and SASS
 
-## For checking browser compatibility with css propert 
+## For checking browser compatibility with css property 
 
 [caniuse](https://caniuse.com/)
 
