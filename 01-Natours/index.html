@@ -22,7 +22,9 @@
 
     <div class="navigation">
       <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-      <label for="navi-toggle" class="navigation__button">MENU</label>
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon"></span>
+      </label>
 
       <div class="navigation__background"></div>
 
@@ -46,7 +48,7 @@
           <span class="heading-primary--main">outdoors</span>
           <span class="heading-primary--sub">is where life happends</span>
         </h1>
-        <a href="#" class="btn btn--white btn--animation">Discover our toors</a>
+        <a href="#section-tours" class="btn btn--white btn--animation">Discover our toors</a>
       </div>
     </header>
 
@@ -162,7 +164,7 @@
         </div>
       </section>
 
-      <section class="section-tours">
+      <section class="section-tours" id="section-tours">
         <div class="uc-center-text uc-margin-bottom-big">
           <h2 class="heading-secondary">most popular tours</h2>
         </div>
@@ -193,7 +195,7 @@
                     <p class="card__price-only">only</p>
                     <p class="card__price-value">$297</p>
                   </div>
-                  <a href="#" class="btn btn--white">book now!</a>
+                  <a href="#popup" class="btn btn--white">book now!</a>
                 </div>
               </div>
             </div>
@@ -224,7 +226,7 @@
                     <p class="card__price-only">only</p>
                     <p class="card__price-value">$497</p>
                   </div>
-                  <a href="#" class="btn btn--white">book now!</a>
+                  <a href="#popup" class="btn btn--white">book now!</a>
                 </div>
               </div>
             </div>
@@ -255,7 +257,7 @@
                     <p class="card__price-only">only</p>
                     <p class="card__price-value">$897</p>
                   </div>
-                  <a href="#" class="btn btn--white">book now!</a>
+                  <a href="#popup" class="btn btn--white">book now!</a>
                 </div>
               </div>
             </div>
@@ -388,6 +390,24 @@
         </div>
       </div>
     </footer>
+
+    <div class="popup" id="popup">
+      <div class="popup__centent">
+        <div class="popup__left">
+          <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+          <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+        </div>
+        <div class="popup__right">
+          <a href="#section-tours" class="popup__close">&times;</a>
+          <h2 class="heading-secondary uc-margin-bottom-small">start booking now</h2>
+          <h3 class="heading-tertiary uc-margin-bottom-small">Important &ndash; please read this term before booking</h3>
+          <p class="popup__text">
+            I do not own a car, and my main form of travel to Westminster and in my constituency is by bicycle. I also take my bike on trains to meetings in other parts of the country, which enables me to see other cities and the other parts of the country.<br/>It seems that the more places I see and experience, the bigger I realize the world to be. The more I become aware of, the more I realize how relatively little I know of it, how many places I have still to go, how much more there is to learn.<br/>Do you love solo travel? If so, these adventure quotes were made just for you. And don’t be afraid to share them with other fellow travelers who don’t mind the occasional solo adventure.
+          </p>
+          <a href="#" class="btn btn--green">Book now</a>
+        </div>
+      </div>
+    </div>
 
     <!-- using floats
     <section class="grid-test">

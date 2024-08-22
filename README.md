@@ -15,3 +15,11 @@
 ## For different videos for your website
 
 [Cover](https://coverr.co/)
+
+## other resources
+
+[easings](https://easings.net/)
+
+[Cubik bezier](https://cubic-bezier.com/)
+
+[Statecounter for media query](https://statcounter.com/)
