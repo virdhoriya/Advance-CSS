@@ -6,7 +6,6 @@
   position: relative;
 
   &__side {
-
     height: 52rem;
     transition: all 0.8s ease;
 
@@ -50,7 +49,6 @@
           $color-tertiary-dark
         );
       }
-
     }
   }
 
@@ -99,7 +97,6 @@
         ),
         url("../img/nat-7.jpg");
     }
-
   }
 
   &__heading {
@@ -142,7 +139,6 @@
         rgba($color-tertiary-dark, 0.85)
       );
     }
-
   }
 
   &__details {
@@ -162,11 +158,8 @@
         &:not(:last-child) {
           border-bottom: 1px solid $color-grey-light-2;
         }
-
       }
-
     }
-
   }
 
   //back side styling
@@ -193,6 +186,52 @@
   &__price-value {
     font-size: 6rem;
     font-weight: 200;
-  }
+  } 
 
+  // @include respond(tab-port) {
+  @media only screen and (max-width: 56.25em),
+        only screen and (hover: none) {
+    height: auto;
+    border-radius: 3px;
+    background-color: $color-white;
+    box-shadow: $shadow-small;
+
+    &__side {
+      height: auto;
+      position: relative;
+      box-shadow: none;
+
+      &--back {
+        transform: rotateY(0);
+        height: 27rem;
+        margin-top: -2rem;
+        padding-bottom: 1rem;
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+
+      }
+    }
+
+    &:hover &__side--front {
+      transform: rotateY(0);
+    }
+
+    //back side styling
+
+    &__cta {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(0);
+      width: 100%;
+      padding: 3rem;
+    }
+
+    &__price-box {
+      margin-bottom: 3rem;
+    }
+
+    &__price-value {
+      font-size: 5rem;
+    }
+  }
 }

@@ -8,12 +8,16 @@
   margin-bottom: 8rem !important;
 
   @include respond(tab-port) {
-    margin-bottom: 6rem !important;
+    margin-bottom: 5rem !important;
   }
 }
 
 .uc-margin-bottom-medium {
   margin-bottom: 4rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 3rem !important;
+  }
 }
 
 .uc-margin-bottom-small {
