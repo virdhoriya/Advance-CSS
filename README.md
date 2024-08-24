@@ -23,3 +23,13 @@
 [Cubik bezier](https://cubic-bezier.com/)
 
 [Statecounter for media query](https://statcounter.com/)
+
+[Sizzy](https://sizzy.co/)
+
+## For svg icons
+[icomoon](https://icomoon.io/)
+
+## responsive images
+- resolution switching
+- density switching
+- art direction
