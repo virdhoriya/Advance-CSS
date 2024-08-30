@@ -1,0 +1,64 @@
+.container {
+  background-color: #eee;
+  width: 1000px;
+  margin: 30px auto;
+  font-weight: 600;
+  font-size: 30px;
+  color: #fff;
+
+  display: grid;
+
+  //using min content and max content
+
+  //grid-template-rows: repeat(2, 150px);
+  //   grid-template-columns: max-content 1fr 1fr min-content;
+  //grid-template-rows: repeat(2, min-content);
+
+  //using minmax function
+
+  //width: 90%;
+  //grid-template-rows: repeat(2, minmax(150px, min-content));
+  //grid-template-columns: minmax(200px, 1fr) repeat(3, 1fr);
+
+  //Using auto-fill and auto-fit
+
+  grid-template-rows: repeat(2, minmax(150px, min-content));
+  grid-template-columns: repeat(auto-fill, 100px);
+  grid-template-columns: repeat(auto-fit, 100px);
+
+  width: 90%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 150px;
+
+  .item {
+    padding: 10px;
+    font-family: sans-serif;
+    background-color: #86198f;
+
+    &--1 {
+      background-color: rgb(255, 0, 0);
+    }
+    &--2 {
+      background-color: rgb(55, 46, 46);
+    }
+    &--3 {
+      background-color: rgb(43, 206, 25);
+    }
+    &--4 {
+      background-color: rgb(255, 0, 255);
+    }
+    &--5 {
+      background-color: rgb(213, 77, 199);
+    }
+    &--6 {
+      background-color: rgb(220, 213, 115);
+    }
+    &--7 {
+      background-color: rgb(85, 0, 255);
+    }
+    &--8 {
+      background-color: rgb(255, 238, 0);
+      color: #000;
+    }
+  }
+}

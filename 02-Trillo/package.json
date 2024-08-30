@@ -6,6 +6,8 @@
     "start": "sass --watch sass/main.scss:css/style.css",
     "grid:sass": "sass --watch ../03-CssGrid/style.scss:../03-CssGrid/style.css",
     "challenge:sass": "sass --watch ../03-CssGrid/challenge/style.scss:../03-CssGrid/challenge/style.css",
+    "lecture01:sass": "sass --watch ../03-CssGrid/lecture01/style.scss:../03-CssGrid/lecture01/style.css",
+    "lecture02:sass": "sass --watch ../03-CssGrid/lecture02/style.scss:../03-CssGrid/lecture02/style.css",
     
     "compile": "sass sass/main.scss css/style.compile.css",
     "prefix": "postcss css/style.compile.css --use autoprefixer -o css/style.prefix.css",
