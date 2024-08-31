@@ -33,3 +33,9 @@
 - resolution switching
 - density switching
 - art direction
+
+
+## Reconsider the lecture
+
+- auto-fill and auto-fit 
+- the powerfull mechanism
